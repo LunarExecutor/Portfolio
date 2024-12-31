@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+
+        <!-- to link css file -->
+        <link rel="stylesheet" href="Style/Portfolio.css">
+
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+<body>
+    <!--NAVbAR-->
+<nav>
+    <a href="#" class="logo">Portfolio.</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    
+
+    <!--menu-->
+
+    <ul class="menu">
+    <li><a href="#home"     onclick="toggleMenu();">Home</a></li>
+    <li><a href="#about"    onclick="toggleMenu();">About</a></li>
+    <li><a href="#Services" onclick="toggleMenu();">Projects</a></li>
+    <li><a href="#contact"  onclick="toggleMenu();">Contact</a></li>
+    </ul>
+</nav>
+
+    <!--MAIN TEXT AND IMAGE-->
+    <section id="home">
+        <div class="home-text">
+            <h1>Hello, I'm<br>Name <span></span>Lastname<br> Computer Engineer</h1>
+
+            <!--Button-->
+            <a href="#">Resume</a>
+        </div>
+
+        <!--home image-->
+
+        <div class="home-img">
+            <img src="images/3.jpg" alt="">
+
+        </div>
+        <!-- Social Media -->
+
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></a></i>
+            <a href="#"><i class='bx bxl-twitter'></a></i>
+            <a href="#"><i class='bx bxl-github'></a></i>
+            </div>
+    </section>
+
+    <!--about section-->
+    <section id="about">
+
+        <!--heading-->
+
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+
+        <!--About content-->
+
+        <div class="about-content">
+            <div class="about-img">
+                <img src="images/2.png" alt="">
+            </div>
+            <div class="about-text">
+                <h1>I'm Name</h1>
+                <p>Discover my world of computer engineering and software development. Explore my projects, skills, and passion for technology.</p>
+
+                <!--button-->
+
+                <a href="#">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!--projects section-->
+
+    <section id="Services">
+
+        <!--heading-->
+        <div class="heading">
+            <h2>Projects</h2>
+            <p>My Projects</p>
+        </div>
+
+        <div class="services-content">
+
+            <!--Box-->
+            <div class="box">
+                <img src="images/Untitled design.png" alt="">
+                <h1>HTML projects</h1>
+                <p>Explore My HTML Project Gallery: Unveiling Web Creations</p>
+            </div>
+
+             <!--Box-->
+             <div class="box">
+                <img src="images/Untitled design.png" alt="">
+                <h1>CSS projects</h1>
+                <p>Explore My HTML Project Gallery: Unveiling Web Creations</p>
+            </div>
+
+             <!--Box-->
+             <div class="box">
+                <img src="images/Untitled design.png" alt="">
+                <h1>javaScript projects</h1>
+                <p>Explore My HTML Project Gallery: Unveiling Web Creations</p>
+            </div>
+            
+
+             <!--Box-->
+             <div class="box">
+                <img src="images/Untitled design.png" alt="">
+                <h1>UI/UX Design</h1>
+                <p>Explore My HTML Project Gallery: Unveiling Web Creations</p>
+            </div>
+
+              <!--Box-->
+              <div class="box">
+                <img src="images/Untitled design.png" alt="">
+                <h1>WordPress</h1>
+                <p>Explore My HTML Project Gallery: Unveiling Web Creations</p>
+            </div>
+
+              <!--Box-->
+              <div class="box">
+                <img src="images/Untitled design.png" alt="">
+                <h1>Designs</h1>
+                <p>Explore My HTML Project Gallery: Unveiling Web Creations</p>
+            </div>
+
+        </div>
+            </section>
+
+            <!--Contact Section-->
+
+            <section id="contact">
+                <div class="heading color">
+                    <h2>Contact</h2>
+                    <p>Leave A Message</p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="app">
+                        <h1>Connect With Us <br>By Our Apps</h1>
+                        <a href="#"><i class='bx bxl-play-store'></i></a>
+                        <a href="#"><i class='bx bxl-apple'></i></a>
+                    </div>
+
+                    <div class="contact-form">
+                        <form action="">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+                            <input type="button" value="Send" class="contact-button">
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!--copyright section-->
+
+            <div class="copyright">
+                <p>Copyright © 2022 Portfolio. All rights reserved</p>
+            </div>
+            
+            <!-- scroll animation -->
+            <script src="https://unpkg.com/scrollreveal"></script>
+
+            <!--link to JavaScript-->
+            <script src="main.js"></script>
+            
+
+
+</body>
+
+</html>
